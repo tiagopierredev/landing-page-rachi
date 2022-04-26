@@ -1,0 +1,57 @@
+section#contact {
+  background: url("/assets/image/unsplash_psGV5KhidlY.png") no-repeat;
+  background-size: cover;
+  height: 38.3rem;
+  color: var(--button-color);
+}
+
+section#contact div#contact-content {
+  background: rgba(41, 49, 69, 0.7);
+  height: 100%;
+  padding-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section#contact div#contact-content p {
+  color: var(--text-color-secondary-ligth);
+  max-width: 52.8rem;
+  text-align: center;
+  line-height: 2.6rem;
+  margin-top: 1.6rem;
+}
+
+section#contact div#contact-content form {
+  margin-top: 9.3rem;
+  display: flex;
+  align-items: center;
+}
+
+section#contact div#contact-content form input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  width: 30rem;
+  color: var(--button-color);
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+section#contact div#contact-content form input::-webkit-input-placeholder {
+  color: var(--button-color);
+  font-size: 1.8rem;
+  font-weight: 500;
+  height: 100%;
+}
+
+section#contact div#contact-content form button {
+  background-color: var(--base-color);
+  padding: 0.8rem 3.2rem;
+  border-radius: 5rem;
+  color: var(--button-color);
+  margin-left: 4rem;
+}
+section#contact div#contact-content form button:hover {
+  cursor: pointer;
+}

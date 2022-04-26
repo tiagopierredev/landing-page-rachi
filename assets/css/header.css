@@ -1,0 +1,20 @@
+#main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2.6rem 0;
+}
+
+#main-header nav {
+  display: flex;
+  align-items: center;
+}
+
+#main-header nav a {
+  margin-left: 6.6rem;
+  font-weight: 500;
+}
+
+#main-header nav a:first-child {
+  margin-left: 0;
+}

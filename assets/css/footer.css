@@ -1,0 +1,11 @@
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10.2rem;
+}
+
+footer p {
+  font-size: 2rem;
+  font-family: var(--title-font);
+}

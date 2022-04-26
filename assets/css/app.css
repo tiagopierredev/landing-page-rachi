@@ -1,0 +1,42 @@
+section#app {
+  background-color: var(--base-color-second);
+  max-height: 47.5rem;
+  padding: 3.7rem 0;
+}
+
+div#app-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+div#app-content div h2 {
+  font-size: 3.2rem;
+}
+
+div#app-content div p.text-info {
+  max-width: 44.4rem;
+  text-align: start;
+  margin-top: 2.4rem;
+}
+
+div#app-content div div#app-buttons {
+  margin-top: 3.2rem;
+}
+
+div#app-content div div#app-buttons a.app-button {
+  background-color: var(--cards-background-color);
+  display: inline-block;
+  margin-left: 2.105rem;
+  padding: 0.9rem 1.117rem;
+  border-radius: 1rem;
+  transition: filter 0.3s;
+}
+
+div#app-content div div#app-buttons a.app-button:hover {
+  filter: brightness(0.8);
+}
+
+div#app-content div div#app-buttons a.app-button:first-child {
+  margin-left: 0;
+}

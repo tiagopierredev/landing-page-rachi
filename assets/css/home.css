@@ -1,0 +1,20 @@
+section#home {
+  background-color: var(--base-color-second);
+}
+
+section#home div.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+section#home div#home-content h1 {
+  font-size: var(--title-font-size);
+  justify-self: center;
+  font-family: var(--title-font);
+  line-height: 6rem;
+}
+
+section#home div#home-content a {
+  margin-top: 5rem;
+}

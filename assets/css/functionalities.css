@@ -1,0 +1,32 @@
+section#functionalities {
+  margin-top: 5.6rem;
+  margin-bottom: 10.9rem;
+}
+
+div#functionalities-cards {
+  margin-top: 8.125rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+}
+
+div#functionalities-cards div.functionalities-card {
+  max-width: 21rem;
+  height: 18.225rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+div#functionalities-cards div.functionalities-card h3 {
+  font-size: var(--body-font-size);
+  text-align: center;
+  font-weight: 600;
+  font-family: var(--title-font);
+}
+
+div#functionalities-cards div.functionalities-card p.text-info {
+  text-align: center;
+  margin-top: 1.6rem;
+}

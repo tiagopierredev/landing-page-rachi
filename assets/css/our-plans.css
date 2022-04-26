@@ -1,0 +1,82 @@
+section#our-plans {
+  margin: 5rem 0 13rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section#our-plans p.text-info {
+  font-size: var(--body-font-size);
+  text-align: center;
+  margin-top: 1.8rem;
+  max-width: 57rem;
+}
+
+section#our-plans div.plans-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 9.6rem;
+  gap: 3rem;
+  justify-items: center;
+  align-items: center;
+}
+
+section#our-plans div.plans-cards div.plan-card {
+  background-color: var(--base-color-second);
+  padding: 0 3.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 0.8rem;
+}
+
+section#our-plans div.plans-cards div.plan-card:nth-child(2) {
+  background-color: var(--cards-background-color);
+  color: var(--button-color);
+}
+
+section#our-plans div.plans-cards div.plan-card h3 {
+  font-family: var(--title-font);
+  font-size: 2.4rem;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 5.6rem;
+}
+
+section#our-plans div.plans-cards div.plan-card p.price {
+  font-size: 5rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  margin-top: 5.9rem;
+  text-align: center;
+}
+
+section#our-plans div.plans-cards div.plan-card p.price span:first-child {
+  font-size: 2rem;
+  vertical-align: super;
+}
+
+section#our-plans div.plans-cards div.plan-card p.price span:last-child {
+  font-size: 2.6rem;
+}
+
+section#our-plans div.plans-cards div.plan-card p.text-info {
+  margin-top: 4.7rem;
+  font-weight: 400;
+  line-height: 2.5rem;
+}
+
+section#our-plans div.plans-cards div.plan-card:nth-child(2) p.text-info {
+  color: var(--text-color-secondary-ligth);
+}
+
+section#our-plans div.plans-cards div.plan-card a {
+  margin-top: 5.8rem;
+  margin-bottom: 6.4rem;
+  display: inline-block;
+  background-color: var(--base-color);
+  color: var(--button-color);
+  padding: 0.8rem 8rem;
+  box-shadow: 1px 3px 4px rgba(19, 125, 224, 0.5);
+  border-radius: 5rem;
+}
