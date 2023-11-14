@@ -1,5 +1,5 @@
 section#contact {
-  background: url("/assets/image/unsplash_psGV5KhidlY.png") no-repeat;
+  background: url("assets/image/unsplash_psGV5KhidlY.png") no-repeat;
   background-size: cover;
   height: 38.3rem;
   color: var(--button-color);
